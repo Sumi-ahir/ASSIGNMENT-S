@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+@font-face {
+    font-family: capture;
+    src: url(./Capture.ttf);
+}
+button{
+    margin-top:20px;
+    margin-left:0px;
+    padding: 10px 20px;
+    color: rgb(53, 55, 58);
+    border-radius: 10px;
+  
+    box-shadow: 3px 3px 3px #5c5860;
+    border:none;
+    cursor: pointer;
+    background-color:rgb(188, 200, 211) ;
+}
+button:hover {
+  background-position: right center;
+  box-shadow: 0 0 15px #323134;
+}
+h1{
+  text-shadow: 0 0 10px #c4b9cf, 0 0 15px #baacbe;
+  animation: glow 3s ease-in-out infinite alternate;
+}
+@keyframes glow {
+  from { text-shadow: 0 0 10px #8c8790; }
+  to { text-shadow: 0 0 30px #e0dee0ff, 0 0 50px #cdb9cd; }
+}
+#nav{
+  padding: 20px 50px;
+}
+/* #nav:hover{
+  color: #e4dfe8;
+  cursor: pointer;
+} */
